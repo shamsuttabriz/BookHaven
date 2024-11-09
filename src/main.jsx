@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import BookDetails from "./components/BookDetails/BookDetails";
 import Dashboard from "./components/Dashboard/Dashboard";
 import Error from "./components/Error/Error";
 import Home from "./components/Home/Home";
@@ -17,6 +18,11 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "books/:bookId",
+        element: <BookDetails />,
+        loader: () => fetch("./booksData.json"),
       },
       {
         path: "/dashboard",
