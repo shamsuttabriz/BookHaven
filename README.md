@@ -1,8 +1,3 @@
-# React + Vite
+# Book Haven
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+"Book Haven" is an online bookshop platform designed for book lovers of all ages. This platform allows users to explore, discover, and purchase books across a wide range of genres, from fiction and non-fiction to academic and self-help titles. The website provides a user-friendly interface with easy search and filter options, helping customers quickly find their desired books. "Book Haven" also offers personalized recommendations based on browsing history, creating a unique experience tailored to individual reading preferences. With secure checkout, fast delivery options, and detailed book descriptions, Book Haven is a one-stop shop for all book enthusiasts looking to expand their libraries from the comfort of their homes.

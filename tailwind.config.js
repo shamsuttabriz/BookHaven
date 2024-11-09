@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      play: ['"Playfair Display"', 'sans-serif'],
+      work: ['"Work Sans"', 'sans-serif'],
+    }
   },
   plugins: [
     require('daisyui'),
