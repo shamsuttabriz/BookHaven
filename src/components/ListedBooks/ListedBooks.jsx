@@ -12,7 +12,7 @@ export default function ListedBooks() {
   useEffect(() => {
     const storedReadList = getStoredReadList();
     const storedReadListInt = storedReadList.map((id) => parseInt(id));
-    console.log(storedReadList, storedReadListInt, allBooks);
+    console.log(allBooks);
     // worst way
     const readBookList = allBooks.filter((book) =>
       storedReadListInt.includes(book.bookId)

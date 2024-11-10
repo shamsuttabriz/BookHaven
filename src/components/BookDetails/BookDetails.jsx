@@ -5,9 +5,9 @@ import {
 } from "../../utilities/addToDb";
 
 export default function BookDetails() {
+  const data = useLoaderData();
   const { bookId } = useParams();
   const id = parseInt(bookId);
-  const data = useLoaderData();
 
   const singleBook = data.find((book) => book.bookId === id);
   // console.log(singleBook);
